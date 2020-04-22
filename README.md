@@ -129,22 +129,6 @@ X_train
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -451,21 +435,6 @@ y_train
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -787,23 +756,6 @@ pred_17_2_df=pd.DataFrame(pred_y17_2,index=list(range(4320,4752)),columns=y_trai
 pred_17_2_df
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1063,7 +1015,7 @@ pred_17_2_df
   </tbody>
 </table>
 <p>432 rows × 18 columns</p>
-</div>
+
 
 ## 2. Model 2 : Y00~17 -> Y18  학습하는 모델
 
@@ -1091,23 +1043,6 @@ pred_y18_test_df=pd.DataFrame(pred_y18_test)
 pred_y18_test_df
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1163,7 +1098,7 @@ pred_y18_test_df
   </tbody>
 </table>
 <p>11520 rows × 1 columns</p>
-</div>
+
 
 
 
@@ -1182,20 +1117,6 @@ pred_y18_test_df.to_csv('test_pred.csv')
 ```
 수정한 모델로 예측한 예측값
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1251,7 +1172,7 @@ pred_y18_test_df.to_csv('test_pred.csv')
   </tbody>
 </table>
 <p>11520 rows × 1 columns</p>
-</div>
+
 
 --------------------------------------------------------------------------------------------------
 
