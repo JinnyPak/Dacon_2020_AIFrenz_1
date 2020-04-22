@@ -723,7 +723,8 @@ y_18=y_train.iloc[4320:,18:19]
 
 
 # 앙상블 모델
-## 1. Model 1 : X00~39 -> Y00~17 학습하는 모델
+
+## 1. Model 1 :<br> X        -> Y00~17 학습하는 모델
 
 ```python
 # ensemble 할 model 정의
