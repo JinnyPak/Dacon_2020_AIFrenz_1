@@ -744,7 +744,6 @@ Base-Line 들 앙상블 후에 Y00~Y17 이 MultiOutput 이므로 MultiOutputRegr
 ```python
 vote  = VotingRegressor(models) # Base-Line 들 앙상블
 mr=MultiOutputRegressor(vote) 
-
 mr.fit(X_train,y_17)
 ```
 
